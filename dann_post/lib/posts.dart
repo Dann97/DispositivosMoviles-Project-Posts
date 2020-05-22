@@ -3,13 +3,15 @@ import 'package:dann_post/post_detail.dart';
 import 'package:dann_post/post_model.dart';
 import 'package:flutter/material.dart';
 
+
  class PostsPage extends StatelessWidget{
+   
    final HttpsService httpsService=HttpsService();
   @override
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: Text("Dann Posts"),
+        title: Text("Dann Posts",style: TextStyle(color: Colors.blueGrey),),
       ),
       body: FutureBuilder(future: httpsService.getPosts(),
       builder:(BuildContext context, AsyncSnapshot<List<Post>> snapshot){
@@ -23,7 +25,7 @@ import 'package:flutter/material.dart';
                 backgroundImage: AssetImage("images/icono.png"),
               ),
               title: Text(post.title),
-              subtitle: Text(post.id.toString(),),
+              subtitle: Text(post.body),
               onTap: () => Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (context)=>PostDetail(
