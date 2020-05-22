@@ -35,12 +35,14 @@ class PostDetail extends StatelessWidget{
             padding: EdgeInsets.all(15.0),
             
             child: Card(
+              elevation: 10,
             child: Text("${post.title}",style: TextStyle(fontSize:18.0),),
             ),
           ),
           Container(
             padding: EdgeInsets.all(12.0),
             child: Card(
+              elevation: 5,
               child:Column(
                 children: <Widget>[
                   ListTile(
