@@ -1,20 +1,30 @@
-import 'package:dann_post/posts.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:dann_post/core/services/authentication_service.dart';
+import 'package:dann_post/locator.dart';
+import 'package:dann_post/ui/router.dart';
 
+import 'core/models/user.dart';
 
-void main() => runApp(new MyApp());
+void main() {
+  setupLocator();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return new MaterialApp(
-      title: 'Mi Post',
-      theme: new ThemeData(
-        primarySwatch: Colors.lightGreen,
+    return StreamProvider<User>(
+      initialData: User.initial(),
+      create: (BuildContext context) =>
+          locator<AuthenticationService>().userController.stream,
+      child: MaterialApp(
+        title: 'Flutter Demo',
+        theme: ThemeData(),
+        initialRoute: 'login',
+        onGenerateRoute: Router.generateRoute,
+        debugShowCheckedModeBanner: false,
       ),
-      debugShowCheckedModeBanner: false,
-      home: new PostsPage(),
     );
   }
 }
-
