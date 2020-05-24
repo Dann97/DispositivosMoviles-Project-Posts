@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:dann_post/core/models/comment.dart';
-import 'package:dann_post/core/models/post.dart';
-import 'package:dann_post/core/models/user.dart';
+import 'package:dann_post/ModelsAndServices/models/comment.dart';
+import 'package:dann_post/ModelsAndServices/models/post.dart';
+import 'package:dann_post/ModelsAndServices/models/user.dart';
 import 'package:http/http.dart' as http;
 
 /// The service responsible for networking requests

@@ -1,6 +1,6 @@
-import 'package:dann_post/core/enums/viewstate.dart';
-import 'package:dann_post/core/services/authentication_service.dart';
-import 'package:dann_post/core/viewmodels/base_model.dart';
+import 'package:dann_post/ModelsAndServices/enums/viewstate.dart';
+import 'package:dann_post/ModelsAndServices/services/authentication_service.dart';
+import 'package:dann_post/ModelsAndServices/viewmodels/base_model.dart';
 
 import '../../locator.dart';
 

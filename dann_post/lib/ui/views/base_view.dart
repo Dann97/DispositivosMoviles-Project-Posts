@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:dann_post/core/viewmodels/base_model.dart';
+import 'package:dann_post/ModelsAndServices/viewmodels/base_model.dart';
 
 import '../../locator.dart';
 

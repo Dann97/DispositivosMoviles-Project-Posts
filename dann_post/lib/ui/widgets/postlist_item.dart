@@ -1,6 +1,6 @@
 //  import 'package:dann_post/ui/shared/app_colors.dart';
 import 'package:flutter/material.dart';
-import 'package:dann_post/core/models/post.dart';
+import 'package:dann_post/ModelsAndServices/models/post.dart';
 
 class PostListItem extends StatelessWidget {
   final Post post;

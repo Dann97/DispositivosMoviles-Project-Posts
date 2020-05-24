@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:dann_post/core/models/post.dart';
+import 'package:dann_post/ModelsAndServices/models/post.dart';
 import 'package:dann_post/ui/views/home_view.dart';
 import 'package:dann_post/ui/views/login_view.dart';
 import 'package:dann_post/ui/views/post_view.dart';

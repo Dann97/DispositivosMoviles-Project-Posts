@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:dann_post/core/models/user.dart';
+import 'package:dann_post/ModelsAndServices/models/user.dart';
 
 import '../../locator.dart';
 import 'api.dart';

@@ -1,9 +1,9 @@
 //import 'package:dann_post/ui/shared/app_colors.dart';
 //import 'package:dann_post/ui/shared/app_colors.dart';
 import 'package:flutter/material.dart';
-import 'package:dann_post/core/enums/viewstate.dart';
-import 'package:dann_post/core/models/comment.dart';
-import 'package:dann_post/core/viewmodels/comments_model.dart';
+import 'package:dann_post/ModelsAndServices/enums/viewstate.dart';
+import 'package:dann_post/ModelsAndServices/models/comment.dart';
+import 'package:dann_post/ModelsAndServices/viewmodels/comments_model.dart';
 //import 'package:dann_post/ui/shared/app_colors.dart';
 //import 'package:dann_post/ui/shared/ui_helpers.dart';
 import 'package:dann_post/ui/views/base_view.dart';

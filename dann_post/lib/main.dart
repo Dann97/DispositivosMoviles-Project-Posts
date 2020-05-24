@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:dann_post/core/services/authentication_service.dart';
+import 'package:dann_post/ModelsAndServices/services/authentication_service.dart';
 import 'package:dann_post/locator.dart';
 import 'package:dann_post/ui/router.dart';
 
-import 'core/models/user.dart';
+import 'ModelsAndServices/models/user.dart';
 
 void main() {
   setupLocator();

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:dann_post/core/enums/viewstate.dart';
-import 'package:dann_post/core/viewmodels/login_model.dart';
+import 'package:dann_post/ModelsAndServices/enums/viewstate.dart';
+import 'package:dann_post/ModelsAndServices/viewmodels/login_model.dart';
 import 'package:dann_post/ui/shared/app_colors.dart';
 import 'package:dann_post/ui/widgets/login_header.dart';
 
